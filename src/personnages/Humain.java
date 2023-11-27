@@ -34,11 +34,11 @@ public class Humain {
 		System.out.println(parler() + "Mmmm, un bon verre de " + boissonPrefere + " ! GLOUPS !");
 	}
 	
-	private void gagnerArgent(int gain) {
+	protected void gagnerArgent(int gain) {
 		argent += gain;
 	}
 	
-	private void perdreArgent(int perte) {
+	protected void perdreArgent(int perte) {
 		argent -= perte;
 	}
 	
